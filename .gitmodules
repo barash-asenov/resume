@@ -1,0 +1,3 @@
+[submodule "themes/dev-resume"]
+	path = themes/dev-resume
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
