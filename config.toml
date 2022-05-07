@@ -1,3 +1,206 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# Page settings
+
+baseURL = "https://www.barashasenov.com/resume"
+languageCode = "en"
+title = "Barash Asenov Resume"
+theme = "dev-resume"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+[params]
+    author = "barash-asenov"
+    description = "Barash Asenov Personel Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Barash Asenov"
+        tagline = "Backend Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Berlin"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:barashasenov@gmail.com"
+        text = "barash.asenov@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.barashasenov.com"
+        text = "www.barashasenov.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Ruby / Ruby on Rails"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Golang"
+        [[params.skills.list.items]]
+        details = "Linux / Devops"
+        [[params.skills.list.items]]
+        details = "PostgreSQL"
+        [[params.skills.list.items]]
+        details = "React / JavaScript"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+
+
+
+[params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Engineering"
+        university = "Dokuz Eylul University"
+        dates = "2014 - 2019"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Turkish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Russian"
+        level = "Intermediate+"
+        [[params.languages.list]]
+        name = "German"
+        level = "Intermediate+"
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I love solving problems. I always try to create best solution possible and research for better implementations. I believe in solution rather than being fan of some language. But I like working with Ruby and Golang"
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Backend Engineer"
+        dates = "Feb 2020 - Present"
+        company = "Carl"
+        details = "Carl is an M&A fintech startup targeting SMB's. Collaborated to almost all the projects, worked mostly on the Backend and Devops infracture"
+        [[params.experience.list.items]]
+        details = "Writing efficient code with always at least 90% code coverage (Mostly integration tests with BDD)"
+        [[params.experience.list.items]]
+        details = "Designing the infrastructure together with the CTO for the new projects"
+        [[params.experience.list.items]]
+        details = "Improving the automation and the Devops infrastructure"
+
+        [[params.experience.list]]
+        title = "Co-Founder"
+        dates = "Dec 2018 - Dec 2019"
+        company = "Founded"
+        details = "Founded was an application that matches enterpreneurs and trying to bring minimum viable team together."
+        [[params.experience.list.items]]
+        details = "Implementing the whole state logic with React Native / Redux / Redux Thunk"
+        [[params.experience.list.items]]
+        details = "Backend as a Service with Firebase with additional serverless functions"
+
+        [[params.experience.list]]
+        title = "Web Development Intern"
+        dates = "Oct 2019 - Nov 2019"
+        company = "Defia"
+        details = "Worked on indoor tracking application. I have worked with DWM1001 device, made implementation on Ionic Capacitor with React and Cordova plugin for BLE. API endpoint implementation made for API mock tests using ExpressJS."
+
+        [[params.experience.list]]
+        title = "Web Development Intern"
+        dates = "Jun 2019 - Sep 2019"
+        company = "DDI Technology"
+        details = "I have implemented machine learning module that has python script and get triggered with .NET core on backend. Front-end made with Angular 6 - Metronic. MSSQL as DB"
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Celeritas"
+        url = "https://github.com/barash-asenov/celeritas"
+        tagline = "Go framework for building web appliations. Has support for sessions/cookies, templates, routing, database migrations"
+
+        [[params.projects.list]]
+        title = "File Storage"
+        url = "https://github.com/barash-asenov/File-Storage"
+        tagline = "Dropbox like application made with Ruby on Rails and React"
+
+        [[params.projects.list]]
+        title = "WP Person List"
+        url = "https://github.com/barash-asenov/WP-Person-List"
+        tagline = "Wordpress plugin for structural listing of people. Made with PHP and React Webpack"
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/barash-asenov"
+        title = "barash-asenov"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/barash-asenov/"
+        title = "barash-asenov"
+
+
+
+
+
