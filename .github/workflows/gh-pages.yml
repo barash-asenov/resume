@@ -16,8 +16,9 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      - name: CD
-        run: 'cd /'
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build
         run: hugo --minify
