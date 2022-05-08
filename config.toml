@@ -3,7 +3,7 @@
 baseURL = "https://www.barashasenov.com/resume"
 languageCode = "en"
 title = "Barash Asenov Resume"
-theme = "dev-resume"
+theme = "hugo-dev-resume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
