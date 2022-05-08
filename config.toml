@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://www.barashasenov.com/resume"
+baseURL = "https://barash-asenov.github.io/resume/"
 languageCode = "en"
 title = "Barash Asenov Resume"
 theme = "hugo-dev-resume"
