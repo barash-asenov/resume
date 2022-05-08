@@ -16,6 +16,9 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: CD
+        run: 'cd /'
+
       - name: Build
         run: hugo --minify
 
@@ -24,4 +27,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./public
