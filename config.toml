@@ -99,14 +99,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "English"
         level = "Professional"
         [[params.languages.list]]
-        name = "Turkish"
-        level = "Native"
+        name = "German"
+        level = "Professional"
         [[params.languages.list]]
         name = "Russian"
-        level = "Intermediate+"
+        level = "Professional"
         [[params.languages.list]]
-        name = "German"
-        level = "Intermediate+"
+        name = "Turkish"
+        level = "Native"
 
 
 
@@ -125,8 +125,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
+        title = "Senior Backend Engineer"
+        dates = "Jul 2024 - Present"
+        company = "Check24"
+        details = "Check24 is a comparing portal for many things."
+        [[params.experience.list.items]]
+        details = "Working with a team that is responsible for the Flight search engine."
+        [[params.experience.list.items]]
+        details = "Ensuring the infrastructure needs."
+        [[params.experience.list.items]]
+        details = "Working primarily with Go."
+
+        [[params.experience.list]]
         title = "Backend Engineer"
-        dates = "Feb 2020 - Present"
+        dates = "Oct 2022 - Jun 2024"
+        company = "Simplesurance by Allianz"
+        details = "Simplesureance is a insurance tech company which was under Allianz."
+        [[params.experience.list.items]]
+        details = "Working in a team with microservice architecture, and around 25+ microservice responsibility."
+        [[params.experience.list.items]]
+        details = "Handling the scaling with Hashicorp Nomad"
+        [[params.experience.list.items]]
+        details = "Working with many languages such as Go, PHP - Symphony, React."
+
+        [[params.experience.list]]
+        title = "Backend Engineer"
+        dates = "Feb 2020 - Sep 2022"
         company = "Carl"
         details = "Carl is an M&A fintech startup targeting SMB's. Collaborated to almost all the projects, worked mostly on the Backend and Devops infracture"
         [[params.experience.list.items]]
