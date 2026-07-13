@@ -170,20 +170,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Backend as a Service with Firebase with additional serverless functions"
 
-        [[params.experience.list]]
-        title = "Web Development Intern"
-        dates = "Oct 2019 - Nov 2019"
-        company = "Defia"
-        details = "Worked on indoor tracking application. I have worked with DWM1001 device, made implementation on Ionic Capacitor with React and Cordova plugin for BLE. API endpoint implementation made for API mock tests using ExpressJS."
-
-        [[params.experience.list]]
-        title = "Web Development Intern"
-        dates = "Jun 2019 - Sep 2019"
-        company = "DDI Technology"
-        details = "I have implemented machine learning module that has python script and get triggered with .NET core on backend. Front-end made with Angular 6 - Metronic. MSSQL as DB"
-
-
-
 
 
 
